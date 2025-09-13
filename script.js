@@ -93,7 +93,7 @@ function renderComments() {
         <p>${escapeHtml(item.comment)}</p>
         ${
           item.response
-            ? `<div class="admin-response"><strong>Admin:</strong> ${escapeHtml(item.response)}</div>`
+            ? `<div class="admin-response"><strong>Mempelai:</strong> ${escapeHtml(item.response)}</div>`
             : ""
         }
       `;
