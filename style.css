@@ -70,3 +70,9 @@ h2 {
   font-size: 0.9rem;
   color: #333;
 }
+
+.separator {
+  color: #999;
+  margin: 0 6px;
+  font-weight: normal;
+}
