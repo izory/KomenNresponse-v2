@@ -87,7 +87,7 @@ function renderComments() {
       el.innerHTML = `
         <div class="comment-header">
           <strong>${escapeHtml(item.name)}</strong>
-          <span class="association">${escapeHtml(item.association)}</span>
+          ${item.association ? `<span class="separator"> | </span><span class="association">${escapeHtml(item.association)}</span>` : ""}
           <span class="date">${formatted}</span>
         </div>
         <p>${escapeHtml(item.comment)}</p>
